@@ -6,10 +6,10 @@ lines = get_input("day01/input.txt").split("\n")
 
 # part 1
 
-# digits = [re.findall("\d", line) for line in lines]
-# numbers = [int(f"{d[0]}{d[-1]}") for d in digits]
+digits = [re.findall("\d", line) for line in lines]
+numbers = [int(f"{d[0]}{d[-1]}") for d in digits]
 
-# print(sum(numbers))
+print(sum(numbers))
 
 # part 2
 
